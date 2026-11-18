@@ -17,10 +17,10 @@ object GenericModNames {
         "Zoomify" to "Zoom",
         "Chatting" to "Chat Visuals",
         "ChatTweaks" to "Chat Tweaks",
-        "BehindYouV3" to "Snap Look",
-        "BehindYou (SnapLook)" to "Snap Look",
+        "BehindYouV3" to "Snaplook",
+        "BehindYou (SnapLook)" to "Snaplook",
         "OverflowAnimations" to "Old Animations",
-        "OverflowParticles" to "Particles Customizer",
+        "OverflowParticles" to "Particles",
         "EvergreenHUD" to "HUD Elements",
         "Overlay Tweaks" to "Overlays",
         "FOVChanger" to "FOV Changer",
@@ -41,6 +41,12 @@ object GenericModNames {
         "Detail Armor Bar" to "Detailed Armor Bar",
         "Detail Armor Bar Reconstructed" to "Detailed Armor Bar",
         "Tipper" to "AutoTip",
+        "Screencapper" to "Screenshots",
+        "Custom Block Highlight" to "Block Highlight",
+        "DamageTint" to "Damage Tint",
+        "3d-Skin-Layers" to "Skin Layers",
+        "Sciophobia" to "Text Shadows",
+        "Simple Nick Hider" to "Nick Hider"
     )
 
     fun initialize() {
