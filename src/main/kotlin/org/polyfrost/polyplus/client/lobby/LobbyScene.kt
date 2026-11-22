@@ -2338,7 +2338,7 @@ object LobbyScene {
             if (driven == null) tickSceneEntities(scene.level)
             val local = scene.avatars.firstOrNull { it.isLocal }.takeIf { driven == null }
             LobbyAntics.tick(local)
-            LobbyGrab.tick(local)
+            for (avatar in scene.avatars) LobbyGrab.tick(avatar)
             LobbyHerobrine.tick(scene.level, scene.rig, driven == null && scene.started && !introPlaying() && selected == null && departNanos == 0L && !LobbyWardrobe.open)
             //? if >= 1.21.10
             scene.level.tickBlockEntities()
