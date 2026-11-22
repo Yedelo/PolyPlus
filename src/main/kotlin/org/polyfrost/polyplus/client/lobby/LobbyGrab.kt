@@ -215,8 +215,8 @@ object LobbyGrab {
         visible = false
     }
 
-    private fun usable(avatar: LobbyAvatar): Boolean =
-        avatar.isLocal && avatar.arrival == LobbyAvatar.Arrival.LANDED && !avatar.dismissed && !avatar.spectral && !LobbyWardrobe.open && LobbyScene.showing()
+    private fun usable(avatar: LobbyAvatar): Boolean = true
+        // avatar.isLocal && avatar.arrival == LobbyAvatar.Arrival.LANDED && !avatar.dismissed && !avatar.spectral && !LobbyWardrobe.open && LobbyScene.showing()
 
     private fun controller(avatar: LobbyAvatar): EmoteController = (avatar as PlayerEmotesAccess).`polyplus$emoteController`()
 
